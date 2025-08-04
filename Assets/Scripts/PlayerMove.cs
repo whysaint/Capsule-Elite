@@ -39,16 +39,16 @@ public class PlayerMove : MonoBehaviour
         if (isGround == false)
         {
             stabilFrictionSpeed = 0.1f;
-        }
-
-        if (_rb.linearVelocity.x > MaxSpeed && Input.GetAxis("Horizontal") > 0)
-        {
-            stabilFrictionSpeed = 0f;
-        }
+            
+            if (_rb.linearVelocity.x > MaxSpeed && Input.GetAxis("Horizontal") > 0)
+            {
+                stabilFrictionSpeed = 0f;
+            }
         
-        if (_rb.linearVelocity.x < -MaxSpeed && Input.GetAxis("Horizontal") < 0)
-        {
-            stabilFrictionSpeed = 0f;
+            if (_rb.linearVelocity.x < -MaxSpeed && Input.GetAxis("Horizontal") < 0)
+            {
+                stabilFrictionSpeed = 0f;
+            }
         }
         _rb.AddForce(Input.GetAxis("Horizontal") * MoveSpeed * stabilFrictionSpeed, 0f, 0f, ForceMode.VelocityChange);
 
