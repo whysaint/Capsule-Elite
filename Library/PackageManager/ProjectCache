@@ -1,33 +1,112 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/taraspanchuk/Unity projects/Capsule Elite/Packages/manifest.json
+    m_FilePath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638897451380000000
-    m_Hash: 3464482396
+      ticks: 638899180570000000
+    m_Hash: 2722027697
   m_LockFileStatus:
-    m_FilePath: /Users/taraspanchuk/Unity projects/Capsule Elite/Packages/packages-lock.json
+    m_FilePath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638897451380000000
-    m_Hash: 3644274572
+      ticks: 638899180580000000
+    m_Hash: 4037143968
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Packages
+m_ProjectPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Packages
 m_EditorVersion: 6000.0.51f1 (01c3ff5872c5)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.2d.sprite@a1146c20a947
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: a1146c20a94767d627b9db262ae136cedef9c2c7
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
   version: 2.8.2
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -199,7 +278,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.feature.development@767aadbc6eb7
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -309,7 +388,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.0
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.inputsystem@7fe8299111a7
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.inputsystem@7fe8299111a7
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -469,7 +548,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -562,7 +641,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.timeline@c58b4ee65782
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -757,7 +836,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.ugui@a0f5d16b3c82
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.ugui@a0f5d16b3c82
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -852,7 +931,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -3711,7 +3790,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.23
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3826,7 +3905,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.36
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3953,7 +4032,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4039,7 +4118,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4133,7 +4212,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.5.1
   source: 2
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.test-framework@dfdbd02f5918
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.test-framework@dfdbd02f5918
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4222,7 +4301,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4354,7 +4433,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.settings-manager@41738c275190
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4440,7 +4519,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule Elite/Library/PackageCache/com.unity.ext.nunit@031a54704bff
+  resolvedPath: /Users/taraspanchuk/Unity projects/Capsule-Elite/Library/PackageCache/com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
