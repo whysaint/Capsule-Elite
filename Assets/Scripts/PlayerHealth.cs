@@ -9,6 +9,10 @@ public class PlayerHealth : MonoBehaviour
     public AudioSource AddHealthSound;
 
     public HealthUI HealthUI;
+
+    public DamageScreen DamageScreen;
+
+    public Blink Blink;
     
     private bool _invurnerable = false;
 
@@ -33,6 +37,8 @@ public class PlayerHealth : MonoBehaviour
         Invoke("StopInvurnerble", 1f);
         TakeDamageSound.Play();
         HealthUI.DisplayHealth(Health);
+        DamageScreen.StartEffect();
+        Blink.StartBlink();
     }
 
 
