@@ -1,11 +1,14 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EnemyHealth : MonoBehaviour
 {
     public int Health;
+    public UnityEvent UnityEventTekeDamage;
 
     public void TekeDamage(int damageValue)
     {
+        UnityEventTekeDamage.Invoke();
         Health -= damageValue;
         if (Health <= 0)
         {
