@@ -4,7 +4,8 @@ using UnityEngine;
 public class TakeDamageOnColission : MonoBehaviour
 {
     public EnemyHealth EnemyHealth;
-
+    public bool DieOnAnyCollisioon;
+    
     private void OnCollisionEnter(Collision other)
     {
         if (other.rigidbody)
@@ -13,6 +14,11 @@ public class TakeDamageOnColission : MonoBehaviour
             {
                 EnemyHealth.TekeDamage(1);
             }
+        }
+
+        if (DieOnAnyCollisioon)
+        {
+            EnemyHealth.TekeDamage(1000);
         }
     }
 }

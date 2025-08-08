@@ -412,6 +412,7 @@
 "Assets/Hit & Slashes Vol.1/SelfDestruct.cs"
 "Assets/Scripts/Blink.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/Carrot.cs"
 "Assets/Scripts/DamageScreen.cs"
 "Assets/Scripts/EnemyBase/EnemyHealth.cs"
 "Assets/Scripts/EnemyBase/MakeDamageOnCollision.cs"
