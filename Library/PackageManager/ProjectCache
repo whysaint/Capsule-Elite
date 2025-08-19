@@ -201,8 +201,10 @@ m_ResolvedPackages:
     - 2.7.1
     - 2.8.1
     - 2.8.2
+    - 2.9.1
     compatible:
     - 2.8.2
+    - 2.9.1
     recommended: 2.8.2
     deprecated: []
   dependencies: []
